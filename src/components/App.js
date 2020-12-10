@@ -4,8 +4,10 @@ import "../styles/App.css";
 const App = () => {
   return (
     <div id="main">
-      <h1>video calling website</h1>
-      <dl>used for video calling between two people</dl>
+      <h1 data-ns-test="project-name"> video calling website </h1>
+      <dl data-ns-test="project-name">
+        used for video calling between two people
+      </dl>
     </div>
   );
 };
